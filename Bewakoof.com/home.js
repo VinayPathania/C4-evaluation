@@ -17,11 +17,11 @@ var secs = Math.floor((diff % (1000*60)) / (1000));
 let timer = document.getElementById("timerBox").innerHTML = `
 <ul>
 <li id="hour">
-  ${hours} <br />
+  ${hours} :<br />
   <span>hours</span>
 </li>
 <li id="min">
-  ${mins} <br />
+  ${mins} :<br />
   <span>mins</span>
 </li>
 <li id="second">
